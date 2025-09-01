@@ -23,7 +23,7 @@ public class Principal {
     private final String API_KEY = "&apikey=9f47e3fa";
     private ConsumoAPI consumo = new ConsumoAPI();
     private ConverteDados conversor = new ConverteDados();
-    private List<DadosSerie> dadosSeries = new ArrayList<>();
+    //private List<DadosSerie> dadosSeries = new ArrayList<>();
     private List<Serie> series = new ArrayList<>();
     private SerieRepository repositorio;
     private Optional<Serie> serieBusca;
